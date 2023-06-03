@@ -26,7 +26,7 @@ Comet offers a range of features that make it a versatile language for various p
 
 To start using Comet, you need to follow these installation steps:
 
-1. Visit the official Comet website: [comet-lang.org](https://www.comet-lang.org).
+1. Visit the official [Comet Website](https://okuretakodimo.github.io/comet/).
 2. Download the latest stable release for your operating system.
 3. Follow the installation instructions provided for your specific platform.
 4. Verify the installation by opening a terminal or command prompt and running the following command:
