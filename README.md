@@ -24,9 +24,9 @@ Comet offers a range of features that make it a versatile language for various p
 
 ## Installation
 
-To start using Comet, you need to follow these installation steps:
+To start using Comet, follow these installation steps:
 
-1. Visit the official Comet website: [comet-lang.org](https://www.comet-lang.org).
+1. Visit the official [Comet Website](https://okuretakodimo.github.io/comet/).
 2. Download the latest stable release for your operating system.
 3. Follow the installation instructions provided for your specific platform.
 4. Verify the installation by opening a terminal or command prompt and running the following command:
@@ -62,7 +62,7 @@ Comet's syntax is designed to be expressive and human-readable. Here's a brief o
 You can declare variables in Comet using the `let` keyword:
 
 ```comet
-let x = 42
+let x = 42;
 ```
 
 ### Functions
@@ -72,12 +72,12 @@ Functions in Comet are defined using the `func` keyword:
 ```comet
 class Greet:
   func greet(name):
-    traceln("Hello, " + name + "!")
+    traceln("Hello, " + name + "!");
   end
 
   func main():
-    let name = "John"
-    greet(name)
+    let name = "John";
+    greet(name);
   end
 end
 ```
@@ -89,16 +89,16 @@ Comet supports control flow structures like conditionals and loops:
 ```comet
 class ConditionLoop:
   func main():
-    let x = 15
+    let x = 15;
     if x > 10:
-      traceln("x is greater than 10")
+      traceln("x is greater than 10");
     else:
-      traceln("x is less than or equal to 10")
+      traceln("x is less than or equal to 10");
     end
 
-    let i = 0
+    let i = 0;
     while i < 10:
-      i = i + 1
+      i = i + 1;
     end
   end
 end
@@ -106,31 +106,31 @@ end
 
 ### Error Handling
 
-Comet provides a built-in mechanism for error handling using the `try` and `catch` keywords:
+Comet provides a built-in mechanism for error handling using
+
+ the `throw` function:
 
 ```comet
 class Divide:
   func divide(a, b):
     if b == 0:
-      throw "Division by zero"
+      throw("Division by zero");
     end
-    return a / b
+    return a / b;
   end
 
   func main():
     try:
-      let result = divide(10, 0)
-      traceln(result)
+      let result = divide(10, 0);
+      traceln(result);
     catch error:
-      traceln("An error occurred: " + error)
+      traceln("An error occurred: " + error);
     end
   end
 end
 ```
 
-For
-
- more detailed information about Comet's syntax and features, refer to the official documentation.
+For more detailed information about Comet's syntax and features, refer to the official documentation.
 
 ## Examples
 
@@ -158,7 +158,7 @@ class Fibonacci:
   end
 
   func main():
-    let num = 10
+    let num = 10;
     traceln("Fibonacci series up to " + num + ":");
     for i in 0..num:
       traceln(fibonacci(i));
