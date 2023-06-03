@@ -1,3 +1,8 @@
+> **Disclaimer:**
+> The following is an outline for what Comet is going to be. There is no language yet to speak of. Thank you for your understanding.
+
+---
+
 # Comet Programming Language
 
 Comet is a modern, high-level programming language designed for simplicity, productivity, and performance. It aims to provide an intuitive and expressive syntax while leveraging the power of existing runtime environments. This README file provides an overview of Comet and guides you on how to get started.
