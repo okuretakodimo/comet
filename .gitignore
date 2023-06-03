@@ -1,0 +1,89 @@
+# Ignore object files and executables
+*.o
+*.out
+
+# Ignore compiled dynamic libraries
+*.so
+*.dylib
+
+# Ignore build directories
+build/
+bin/
+
+# Ignore Visual Studio Code project files
+.vscode/
+
+# Ignore CMake build directory
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CMakeLists.txt.user
+Makefile
+
+# Ignore Xcode project files
+*.xcodeproj/
+*.xcworkspace/
+*.dSYM/
+
+# Ignore CLion project files
+.cmake/
+cmake-build-*/
+
+# Ignore Code::Blocks project files
+*.cbp
+*.layout
+*.depend
+
+# Ignore Eclipse project files
+.settings/
+.project
+.cproject
+bin/
+
+# Ignore Qt project files
+*.pro.user
+*.qbs.user
+*.qmake.stash
+
+# Ignore Boost build directory
+bin.v2/
+
+# Ignore CodeLite project files
+*.workspace
+*.codelite
+
+# Ignore Visual Studio project files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.aps
+*.sdf
+*.opensdf
+
+# Ignore Xcode workspace files
+*.xcworkspace/
+
+# Ignore IntelliJ project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore CCache
+.ccache/
+
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Ignore Windows specific files
+Thumbs.db
+Desktop.ini
+
+# Ignore Linux specific files
+*~
+*.swp
